@@ -1,3 +1,5 @@
+test
+
 ctrl + с = выйти в терминал
 pm2 start dist/main.js --name dowry_bot
 
