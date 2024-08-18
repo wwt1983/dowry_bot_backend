@@ -3,7 +3,7 @@ import { TelegramService } from './telegram.service';
 import { SubscribeDto } from './dto/SubscribeDto';
 import { OfferStatus } from '../../src/airtable/types/IOffer.interface';
 import { BotStatus } from '../../src/airtable/types/IBot.interface';
-import { FORMAT_DATE } from '../../src/common/date/date.methods';
+import { FORMAT_DATE } from 'src/common/date/date.methods';
 import { formatInTimeZone } from 'date-fns-tz';
 
 @Controller('telegram')
