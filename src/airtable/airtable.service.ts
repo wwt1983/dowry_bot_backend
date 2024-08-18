@@ -12,18 +12,21 @@ import { IOffer, IOffers } from './types/IOffer.interface';
 import { INotifications } from './types/INotification.interface';
 import { INotificationStatistics } from './types/INotificationStatistic.interface';
 import { BotStatus, IBot } from './types/IBot.interface';
-import { getTimeWithTz, getOfferTime } from 'src/common/date/date.methods';
-import { ISessionData } from 'src/telegram/telegram.interface';
+import {
+  getTimeWithTz,
+  getOfferTime,
+} from '../../src/common/date/date.methods';
+import { ISessionData } from '../../src/telegram/telegram.interface';
 import { IBotComments } from './types/IBotComment';
 import { User } from '@grammyjs/types';
-import { getUserName } from 'src/telegram/telegram.custom.functions';
+import { getUserName } from '../../src/telegram/telegram.custom.functions';
 import { IKeyWord, IKeyWords } from './types/IKeyWords.interface';
 import { getFilterById } from './airtable.custom';
 import { ITime, ITimes } from './types/ITimes.interface';
-import { IBuyer } from 'src/airtable/types/IBuyer.interface';
+import { IBuyer } from '../../src/airtable/types/IBuyer.interface';
 import { IDistribution } from '../airtable/types/IDisturbation.interface';
-import { IHelpers } from 'src/airtable/types/IHelper.interface';
-import { IArticle } from 'src/airtable/types/IArticle.interface';
+import { IHelpers } from '../../src/airtable/types/IHelper.interface';
+import { IArticle } from '../../src/airtable/types/IArticle.interface';
 
 @Injectable()
 export class AirtableService {
