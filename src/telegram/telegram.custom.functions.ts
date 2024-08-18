@@ -29,14 +29,14 @@ import {
   SUBSCRIBE_CHAT_URL,
 } from './telegram.constants';
 import { ChatMember, User } from '@grammyjs/types';
-import { IOffer, IOffers } from '../../src/airtable/types/IOffer.interface';
+import { IOffer, IOffers } from 'src/airtable/types/IOffer.interface';
 import {
   BotStatus,
   BrokeBotStatus,
   IBot,
-} from '../../src/airtable/types/IBot.interface';
-import { INotifications } from '../../src/airtable/types/INotification.interface';
-import { INotificationStatistics } from '../../src/airtable/types/INotificationStatistic.interface';
+} from 'src/airtable/types/IBot.interface';
+import { INotifications } from 'src/airtable/types/INotification.interface';
+import { INotificationStatistics } from 'src/airtable/types/INotificationStatistic.interface';
 import {
   FORMAT_DATE_SIMPLE,
   TIME_FULL,
@@ -45,8 +45,8 @@ import {
   getTimeWithTz,
   dateFormatNoTZ,
   getDate,
-} from '../../src/common/date/date.methods';
-import { IDistribution } from '../../src/airtable/types/IDisturbation.interface';
+} from 'src/common/date/date.methods';
+import { IDistribution } from 'src/airtable/types/IDisturbation.interface';
 
 export function sayHi(first_name: string, username: string): string {
   return (

@@ -1,4 +1,4 @@
-import { BotStatus } from '../../../src/airtable/types/IBot.interface';
+import { BotStatus } from 'src/airtable/types/IBot.interface';
 import { OEM, PSM, createWorker } from 'tesseract.js';
 import Jimp from 'jimp';
 

@@ -9,7 +9,7 @@ import { HydrateApiFlavor, HydrateFlavor } from '@grammyjs/hydrate';
 import {
   BotStatus,
   BrokeBotStatus,
-} from '../../src/airtable/types/IBot.interface';
+} from 'src/airtable/types/IBot.interface';
 import { COMMAND_NAMES } from './telegram.constants';
 
 export interface ITelegramOptions {
