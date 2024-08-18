@@ -81,7 +81,7 @@ import {
   getDateWithTz,
   getTimeWithTz,
   getTimesFromTimesTable,
-} from 'src/common/date/date.methods';
+} from '../../src/common/date/date.methods';
 //import { parseTextFromPhoto } from 'src/common/parsing/image.parser';
 import { ChatMember, User } from '@grammyjs/types';
 //import { getParseWbInfo } from './puppeteer';

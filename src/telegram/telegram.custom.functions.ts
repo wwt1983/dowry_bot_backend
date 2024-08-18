@@ -45,7 +45,7 @@ import {
   getTimeWithTz,
   dateFormatNoTZ,
   getDate,
-} from 'src/common/date/date.methods';
+} from '../../src/common/date/date.methods';
 import { IDistribution } from '../../src/airtable/types/IDisturbation.interface';
 
 export function sayHi(first_name: string, username: string): string {
