@@ -59,10 +59,10 @@ import {
   itsSubscriber,
   getFilterDistribution,
 } from './telegram.custom.functions';
-import { FirebaseService } from 'src/firebase/firebase.service';
-import { AirtableService } from 'src/airtable/airtable.service';
+import { FirebaseService } from '../../src/firebase/firebase.service';
+import { AirtableService } from '../../src/airtable/airtable.service';
 import { getGeoUrl, parseGeoResponse } from './telegram.geo';
-import { OfferStatus } from 'src/airtable/types/IOffer.interface';
+import { OfferStatus } from '../../src/airtable/types/IOffer.interface';
 import {
   commentKeyboard,
   getArticulCommand,
@@ -73,15 +73,15 @@ import {
   operatorKeyboard,
   helpKeyboard,
 } from './telegram.command';
-import { BotStatus } from 'src/airtable/types/IBot.interface';
-import { NotificationStatisticStatuses } from 'src/airtable/types/INotificationStatistic.interface';
+import { BotStatus } from '../../src/airtable/types/IBot.interface';
+import { NotificationStatisticStatuses } from '../../src/airtable/types/INotificationStatistic.interface';
 import {
   FORMAT_DATE,
   dateFormat,
   getDateWithTz,
   getTimeWithTz,
   getTimesFromTimesTable,
-} from 'src/common/date/date.methods';
+} from '../../src/common/date/date.methods';
 //import { parseTextFromPhoto } from 'src/common/parsing/image.parser';
 import { ChatMember, User } from '@grammyjs/types';
 //import { getParseWbInfo } from './puppeteer';

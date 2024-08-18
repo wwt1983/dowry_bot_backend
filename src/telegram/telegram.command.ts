@@ -6,7 +6,7 @@ import {
   WEB_APP,
   WEB_APP_TEST,
 } from './telegram.constants';
-import { BrokeBotStatus, IBot } from 'src/airtable/types/IBot.interface';
+import { BrokeBotStatus, IBot } from '../../src/airtable/types/IBot.interface';
 
 export const webKeyboard = {
   text: START_NAME,

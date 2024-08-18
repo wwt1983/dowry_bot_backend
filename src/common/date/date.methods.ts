@@ -6,7 +6,7 @@ import {
   isValid,
   format,
 } from 'date-fns';
-import { ISessionData } from 'src/telegram/telegram.interface';
+import { ISessionData } from '../../../src/telegram/telegram.interface';
 
 export const FORMAT_DATE = 'yyyy-MM-dd HH:mm';
 export const FORMAT_DATE_SIMPLE = 'dd.MM.yyyy HH:mm';
