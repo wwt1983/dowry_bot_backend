@@ -6,7 +6,7 @@ import { HttpModule } from '@nestjs/axios';
 import { AirtableController } from './airtable.controller';
 import { TelegramModule } from '../../src/telegram/telegram.module';
 
-@Global() 
+@Global()
 @Module({
   imports: [
     TelegramModule,
