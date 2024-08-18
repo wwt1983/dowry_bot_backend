@@ -25,6 +25,7 @@ import { IDistribution } from '../airtable/types/IDisturbation.interface';
 import { IHelpers } from 'src/airtable/types/IHelper.interface';
 import { IArticle } from 'src/airtable/types/IArticle.interface';
 
+
 @Injectable()
 export class AirtableService {
   constructor(
